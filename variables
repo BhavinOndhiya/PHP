@@ -1,0 +1,10 @@
+<?php
+//echo "This tut 5";
+//variable in PHP starts with $
+$name = "Bhavin";
+$income = 200000;
+
+echo "This guy is $name and his income is RS =$income<br>";
+//<br> is used for newline. 
+echo "$name is a good boy<br>";
+?>
