@@ -1,0 +1,130 @@
+//IF-ELSE CASES
+For example, we have two variables $a = 65; and $b = 9;
+
+$a = 665;
+
+$b = 9;
+
+If($a > 78){
+
+Echo "a is greater than 78";
+
+ }
+
+Else{
+
+Echo "a is not greater than 78";
+
+}
+//SWIYCH CASES
+
+<?php
+
+$age = 56;
+
+switch($age){
+
+    case 12:
+
+        echo "You are 12 years old <br>";
+
+        break;
+
+    case 45:
+
+        echo "You are 45 years old <br>";
+
+        break;
+
+    case 56:
+
+        echo "You are 56 years old boy <br>";
+
+        break;
+
+     default:
+
+        echo "Your age is weird <br>";
+
+        break;
+    }
+?>
+
+//FOR LOOP
+<?php
+
+echo "This is for loop in action <br>";
+
+for ($index=1; $index < 6; $index++) { 
+    // for(initialization;condition; updation)
+    echo "The number is $index <br>";
+}
+
+// Avoid running into infinite loops
+// for ($i=0; $i < 87; ) { 
+//     echo $i;
+// }
+
+echo "For loop has ended";
+?>
+
+//WHILE LOOP
+<?php
+echo "while loops in php";echo"<br>";
+// echo 1;echo"<br>";
+// echo 2;echo "<br>";
+// echo 3;echo "<br>";
+// echo 4;echo "<br>";
+// echo 5;echo "<br>";
+
+/* 
+while (condition){
+    some lines of code here;
+}
+*/
+
+$i = 0; 
+while($i<5){
+    echo "The value of i is ";
+    echo $i+1;
+    echo "<br>";
+    $i+=1; 
+} 
+?>
+
+//DO-WHILE LOOPS
+<?php
+echo "Welcome to do while loops <br>";
+
+/*
+do {
+    some lines of code to be executed here;
+    ...
+} while(condition);
+*/
+
+$i = 0;
+do{
+    echo "$i <br>";
+    $i++;
+}while($i<5);
+
+?>
+
+
+//FOR-EACH LOOPS
+<?php
+echo "Welcome to the world of foreach loops <br>";
+$arr = array("Bananas", "Apples", "Harpic", "Bread", "Butter");
+
+// for ($i=0; $i < count($arr); $i++) { 
+//     echo $arr[$i];
+//     echo "<br>";
+// }
+
+// Better way to do this - foreach loops
+foreach ($arr as  $value) {
+    echo "$value <br>";
+}
+
+?>
